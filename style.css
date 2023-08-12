@@ -162,16 +162,11 @@ nav ul li {
 .profile img{
   float: left;
   margin-right: 20px;
-  width: 18%;
+  width: 250px;
   border-radius: 10px;
 }
-.logo img{
-  float: right;
-  width: 7%;
-  margin: 10px;
-}
 .socialMedia img{
-  width: 3%;
+  width: 40px;
   padding-right: 20px;
 }
 .socialMedia{
@@ -182,7 +177,12 @@ nav ul li {
   text-decoration: none;
   color: black;
   margin: 5px;
+  padding: 20px;
+  font-size: 1rem;
   
+}
+.myProject{
+  margin-top: 100px;
 }
 
 .projects a{
@@ -196,7 +196,7 @@ nav ul li {
 }
 
 .intro{
-  margin: 100px;
+  margin: 50px;
 }
 .intro h1{
   font-family: "Fira Sans", sans-serif;
@@ -281,14 +281,7 @@ footer{
 
 @media all and (max-width:900px) {
   
-  .devPic img
-  {
-   
-   height: 50vh;
-   top: 30rem;
-   right: 10rem;
-
-  }
+  
   .devInfo{
     font-size: 10px;
   }
@@ -297,6 +290,26 @@ footer{
   }
   .btn,.button{
     font-size: 10px;
+  }
+}
+
+@media (min-width:300px) and (max-width:600px){
+  .devPic img
+  {
+    display: none;
+  }
+  .profile img{
+    float: none;
+    margin: 3rem;
+    width: 50%;
+    border-radius: 10px;
+  }
+  .intro p{
+    font-size: 1rem;
+  }
+  .intro h1{
+    padding: 0px 50px;
+    margin: 0;
   }
 }
 
