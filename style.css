@@ -8,7 +8,7 @@
 
 body{
     color: #ededed;
-    background-color: #081b29;
+    background-color: black;
 }
 
 .header{
@@ -17,7 +17,7 @@ body{
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: #051129;
+    background: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +27,7 @@ body{
 .logo{
     position: relative;
     font-size: 25px;
-    color: #fff;
+    color: yellow;
     text-decoration: none;
     font-weight: 600;
     cursor: default;
@@ -49,15 +49,14 @@ body{
 }
 
 .navbar a:hover{
-    color: #0ef;
+    color: yellow;
 }
 
 .home{
     position: relative;
-    width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
     height: 100vh;
-    background-color: #081b29 ;
+    background-color: black;
     display: flex;
     align-items: center;
     padding: 70px 10% 0;
@@ -75,7 +74,7 @@ body{
     animation-delay: .7s;
 }
 .home-content h3 span{
-    color: #0ef;
+    color: yellow;
 }
 
 .home-content h3:nth-of-type(2){
@@ -109,9 +108,9 @@ body{
     text-decoration: none;
     background: transparent;
     border-radius: 50%;
-    border: 2px solid #0ef;
+    border: 2px solid yellow;
     font-size: 20px;
-    color: #0ef;
+    color: yellow;
     margin: 30px 15px 30px 0px;
     transition: .5s ease;
     opacity: 0;
@@ -120,15 +119,15 @@ body{
 }
 
 .home-sci a:hover{
-    background-color: #0ef;
+    background-color: yellow;
     color: #081b29;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 20px yellow;
 }
 
 .btn-box{
     display: inline-block;
     padding: 12px 20px;
-    background-color: #0ef;
+    background-color: yellow;
     border-radius: 40px;
     font-size: 16px;
     color: #081b29;
@@ -138,13 +137,13 @@ body{
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 15px cyan;
+    box-shadow: 0 0 15px yellow;
 
 }
 
 .btn-box:hover{
-    box-shadow: 0 0 15px cyan,
-    0 0 25px cyan;
+    box-shadow: 0 0 15px yellow,
+    0 0 25px yellow;
 }
 
 /*About Section*/
@@ -156,24 +155,27 @@ body{
     gap: 1.5rem;
 }
 .about-img{
-    place-items: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
 .about-img img{
-    padding-bottom: 20%;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     transition: 1s ease-in;
     opacity: 0;
     animation: slideRightmost 1s ease forwards;
     animation-delay: 1s;
+    box-shadow: 0 0 15px white , 0 0 15px white;
+    border-radius: 50%;
 }
 
 .about-text h2{
     font-size: 60px;
 }
 .about-text h2 span{
-    color: #0ef;
+    color: yellow;
 }
 .about-text h4{
     font-size: 24px;
@@ -202,7 +204,7 @@ body{
     padding-bottom: 70px;
 }
 .sub-title span{
-    color: #0ef;
+    color: yellow;
 }
 .container{
     padding: 90px;
@@ -226,7 +228,7 @@ body{
 
 .services-list div:hover{
     transform: translateY(-10px);
-    box-shadow: 1px 1px 20px #0ef;
+    box-shadow: 1px 1px 20px yellow;
 }
 .services-list div i{
     font-size: 50px;
@@ -248,7 +250,7 @@ body{
 .read{
     display: inline-block;
     padding: 12px 20px;
-    background-color: #0ef;
+    background-color: yellow;
     border-radius: 40px;
     font-size: 16px;
     color: #081b29;
@@ -258,12 +260,12 @@ body{
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 15px cyan;
+    box-shadow: 0 0 15px yellow;
 }
 .read:hover{
-    background-color: #0ef;
+    background-color: yellow;
     color: #081b29;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 20px yellow;
 }
 
 /* Skills Section */
@@ -327,7 +329,7 @@ section{
 
 .technical-bars .bar .progress-line span{
     height: 100%;
-    background-color: #0ef;
+    background-color: yellow;
     position: absolute;
     border-radius: 10px;
     animation: animate 1s 1s  ease-out forwards;
@@ -441,7 +443,7 @@ section{
 }
 .path{
     stroke-width: 10;
-    stroke: #0ef;
+    stroke: yellow;
     fill: transparent;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
@@ -513,7 +515,7 @@ section{
     text-align: center;
 }
 .main-text h2 span{
-    color: #0ef;
+    color: yellow;
 }
 
 .portfolio-content{
@@ -550,7 +552,7 @@ section{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.1),#0ef);
+    background: linear-gradient(rgba(0,0,0,0.1),yellow);
     border-radius: 8px;
     position: absolute;
     left: 0;
@@ -602,7 +604,7 @@ section{
     text-align: center;
 }
 .contact-text h2 span{
-    color: #0ef;
+    color: yellow;
 }
 
 .contact-text h4{
@@ -627,14 +629,14 @@ section{
 }
 .contact-list i{
     display: inline-block;
-    color: #0ef;
+    color: yellow;
     font-size: 20px;
     font-weight: 600;
     transition: all .40s ease;
 }
 .contact-list li a:hover{
     transform: scale(1.01) translateY(-5px);
-    color: #0ef;
+    color: yellow;
 }
 .contact-icon i{
     display: inline-flex;
@@ -643,10 +645,10 @@ section{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 2px solid yellow;
     border-radius: 50%;
     font-size: 20px;
-    color: #0ef;
+    color: yellow;
     text-decoration: none;
     margin: 30px 15px 30px 0;
     transition: .5s ease;
@@ -656,13 +658,16 @@ section{
 
 }
 .contact-icon i:hover{
-    background: #0ef;
+    background: yellow;
     color: black;
-    box-shadow: 0px 0px 20px #0ef;
+    box-shadow: 0px 0px 20px yellow;
 }
 
 .contact-form form{
+    display: flex;
     position: relative;
+    flex-direction: column;
+    align-items: center;
 }
 .contact-form form input, form textarea{
     border: none;
@@ -684,7 +689,7 @@ section{
 .contact-form form .send{
     display: inline-block;
     padding: 12px 60px;
-    background-color: #0ef;
+    background-color: yellow;
     border-radius: 40px;
     font-size: 18px;
     color: #081b29;
@@ -694,11 +699,11 @@ section{
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 15px cyan;
+    box-shadow: 0 0 15px yellow;
 }
 .contact-form form .send:hover{
-    box-shadow: 0 0 15px cyan,
-    0 0 25px cyan;
+    box-shadow: 0 0 15px yellow,
+    0 0 25px yellow;
 }
 
 .last-text{
@@ -707,15 +712,10 @@ section{
     padding: 25px 0;
     font-weight: 300;
     margin-top: 70px;
-    background-color: rgb(7, 85, 91);
+    background-color: #555557;
 }
 
-.profileimg img{
-    width: 100%;
-    display: block;
-    float: right;
 
-}
 
 /*Animation Frames*/
 
