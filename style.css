@@ -161,7 +161,7 @@ body{
 }
 
 .about-img img{
-    max-width: 50%;
+    max-width: 70%;
     height: auto;
     transition: 1s ease-in;
     opacity: 0;
