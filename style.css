@@ -23,7 +23,18 @@ body{
     align-items: center;
     z-index: 100;
 }
-
+.menu_icon{
+    cursor: pointer;
+    display: flex;
+    height: 32px;
+    width: 32px;
+   background-color:  rgba(249, 234, 101);
+   border-radius: 3px;
+   position: relative;
+   right: -2.5rem;
+   border: 2px solid white;
+   box-shadow: 2px 2px 2px white;
+}
 .logo{
     position: relative;
     font-size: 25px;
@@ -161,7 +172,7 @@ body{
 }
 
 .about-img img{
-    max-width: 70%;
+    max-width: 50%;
     height: auto;
     transition: 1s ease-in;
     opacity: 0;
@@ -841,5 +852,75 @@ section{
     .contact-text p{
         font-size: 17px;
     }
+
+
+/*  slide Navigation   */
+
+@media (min-width:700px) {
+    .menu_icon{
+        display: none;
+    }
 }
+.navbar{
+    display: none;
+}
+.header{
+    align-items: flex-start;
+}
+.navigation--mobile{
+    position: relative;
+    display: flex;
+    padding: 130px 0px;
+    border-radius: 10px;
+    min-height: 100%;
+    background-color:rgba(249, 234, 101, 0.6);
+    gap: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    opacity: 0.95;
+    animation: fadeIn 0.3s forwards;
+    right: -4rem;
+    top: -2rem;
+}
+.navigation--mobile a{
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+}
+.navigation--mobile a:hover{
+    color: white;
+    transform: translateX(10px);
+    box-shadow: 1px 1px 1px white;
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    100%{
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.navigation--mobile--fadeout{
+    animation: fadeOut 300ms forwards;
+}
+@keyframes fadeOut {
+    0%{
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+    }
+    100%{
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+}
+}
+
 
