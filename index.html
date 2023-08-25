@@ -13,6 +13,7 @@
 <body>
     <header class="header">
         <a href="#home" class="logo">Portfolio</a>
+        <img src="images/ham.png" style="color: yellow;" onclick="toggleMenu(this)" class="menu_icon" alt="">
         <nav class="navbar">
             <a href="#home"  style="--i:1" class="active">Home</a>
             <a href="#about"  style="--i:2">About</a>
@@ -49,11 +50,10 @@
         <div class="about-text">
             <h2>About <span>Me</span></h2>
             <h4>Front-End Developer!</h4>
-            <p> I am a computer science engineering student with a passion for web development and programming. <br>
-                I am proficient in Java, HTML, CSS, and JavaScript, and has experience in creating dynamic and responsive websites. <br>
-                I am ready for work as freelancer now. <br>
-                Currently pursuing my B. tech. degree from a reputed institution Government Engineering college Ajmer, where I maintained a high academic performance. <br>
-                I am also an avid cricketer, who has represented his district in the Under-19 category for three consecutive years. I hails from Sirohi, Rajasthan, where I enjoys exploring the rich culture and heritage of my state.</p>
+            <p>Mohammed Saqlain is a computer science engineering student with a passion for web development and programming. <br>
+                He is proficient in Java, HTML, CSS, and JavaScript, and has experience in creating dynamic and responsive websites. <br>
+                He is currently pursuing his B. tech. degree from a reputed institution, where he has maintained a high academic performance with 91% marks in his 12th standard. <br>
+                He is also an avid cricketer, who has represented his district in the Under-19 category for three consecutive years. He hails from Sirohi, Rajasthan, where he enjoys exploring the rich culture and heritage of his state.</p>
 
                 <a href="/documents/Resume-Mohammed-Saqlain.pdf" target="_blank" class="btn-box">My Resume</a>
         </div>
@@ -258,9 +258,9 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-        strings: ["Frontend Developer"," Web Developer ", "Freelancer. "],
-        typeSpeed:80,
-    backSpeed:70,
+        strings: ["Frontend Developer","&amp; Web Developer."],
+        typeSpeed:70,
+    backSpeed:50,
     loop:true
         });
       </script>
