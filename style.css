@@ -10,7 +10,9 @@ body{
     color: #ededed;
     background-color: black;
 }
-
+.menu_icon{
+    display: none;
+}
 .header{
     position: fixed;
     top: 0;
@@ -23,18 +25,7 @@ body{
     align-items: center;
     z-index: 100;
 }
-.menu_icon{
-    cursor: pointer;
-    display: flex;
-    height: 32px;
-    width: 32px;
-   background-color:  rgba(249, 234, 101);
-   border-radius: 3px;
-   position: relative;
-   right: -2rem;
-   border: 2px solid white;
-   box-shadow: 2px 2px 2px white;
-}
+
 .logo{
     position: relative;
     font-size: 25px;
@@ -866,6 +857,18 @@ section{
 }
 .header{
     align-items: flex-start;
+}
+.menu_icon{
+    cursor: pointer;
+    display: flex;
+    height: 32px;
+    width: 32px;
+   background-color:  rgba(249, 234, 101);
+   border-radius: 3px;
+   position: relative;
+   right: -2rem;
+   border: 2px solid white;
+   box-shadow: 2px 2px 2px white;
 }
 .navigation--mobile{
     position: relative;
