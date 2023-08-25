@@ -29,7 +29,7 @@ body{
 .logo{
     position: relative;
     font-size: 25px;
-    color: yellow;
+    color: indianred;
     text-decoration: none;
     font-weight: 600;
     cursor: default;
@@ -51,7 +51,7 @@ body{
 }
 
 .navbar a:hover{
-    color: yellow;
+    color: indianred;
 }
 
 .home{
@@ -76,7 +76,7 @@ body{
     animation-delay: .7s;
 }
 .home-content h3 span{
-    color: yellow;
+    color: indianred;
 }
 
 .home-content h3:nth-of-type(2){
@@ -110,9 +110,9 @@ body{
     text-decoration: none;
     background: transparent;
     border-radius: 50%;
-    border: 2px solid yellow;
+    border: 2px solid indianred;
     font-size: 20px;
-    color: yellow;
+    color: indianred;
     margin: 30px 15px 30px 0px;
     transition: .5s ease;
     opacity: 0;
@@ -121,15 +121,15 @@ body{
 }
 
 .home-sci a:hover{
-    background-color: yellow;
+    background-color: indianred;
     color: #081b29;
-    box-shadow: 0 0 20px yellow;
+    box-shadow: 0 0 20px indianred;
 }
 
 .btn-box{
     display: inline-block;
     padding: 12px 20px;
-    background-color: yellow;
+    background-color: indianred;
     border-radius: 40px;
     font-size: 16px;
     color: #081b29;
@@ -139,13 +139,13 @@ body{
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 15px yellow;
+    box-shadow: 0 0 15px indianred;
 
 }
 
 .btn-box:hover{
-    box-shadow: 0 0 15px yellow,
-    0 0 25px yellow;
+    box-shadow: 0 0 15px indianred,
+    0 0 25px indianred;
 }
 
 /*About Section*/
@@ -177,7 +177,7 @@ body{
     font-size: 60px;
 }
 .about-text h2 span{
-    color: yellow;
+    color: indianred;
 }
 .about-text h4{
     font-size: 24px;
@@ -206,7 +206,7 @@ body{
     padding-bottom: 70px;
 }
 .sub-title span{
-    color: yellow;
+    color: indianred;
 }
 .container{
     padding: 90px;
@@ -230,7 +230,7 @@ body{
 
 .services-list div:hover{
     transform: translateY(-10px);
-    box-shadow: 1px 1px 20px yellow;
+    box-shadow: 1px 1px 20px indianred;
 }
 .services-list div i{
     font-size: 50px;
@@ -252,7 +252,7 @@ body{
 .read{
     display: inline-block;
     padding: 12px 20px;
-    background-color: yellow;
+    background-color: indianred;
     border-radius: 40px;
     font-size: 16px;
     color: #081b29;
@@ -262,12 +262,12 @@ body{
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 15px yellow;
+    box-shadow: 0 0 15px indianred;
 }
 .read:hover{
-    background-color: yellow;
+    background-color: indianred;
     color: #081b29;
-    box-shadow: 0 0 20px yellow;
+    box-shadow: 0 0 20px indianred;
 }
 
 /* Skills Section */
@@ -331,7 +331,7 @@ section{
 
 .technical-bars .bar .progress-line span{
     height: 100%;
-    background-color: yellow;
+    background-color: indianred;
     position: absolute;
     border-radius: 10px;
     animation: animate 1s 1s  ease-out forwards;
@@ -445,7 +445,7 @@ section{
 }
 .path{
     stroke-width: 10;
-    stroke: yellow;
+    stroke: indianred;
     fill: transparent;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
@@ -517,7 +517,7 @@ section{
     text-align: center;
 }
 .main-text h2 span{
-    color: yellow;
+    color: indianred;
 }
 
 .portfolio-content{
@@ -554,7 +554,7 @@ section{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.1),yellow);
+    background: linear-gradient(rgba(0,0,0,0.1),indianred);
     border-radius: 8px;
     position: absolute;
     left: 0;
@@ -606,7 +606,7 @@ section{
     text-align: center;
 }
 .contact-text h2 span{
-    color: yellow;
+    color: indianred;
 }
 
 .contact-text h4{
@@ -631,14 +631,14 @@ section{
 }
 .contact-list i{
     display: inline-block;
-    color: yellow;
+    color: indianred;
     font-size: 20px;
     font-weight: 600;
     transition: all .40s ease;
 }
 .contact-list li a:hover{
     transform: scale(1.01) translateY(-5px);
-    color: yellow;
+    color: indianred;
 }
 .contact-icon i{
     display: inline-flex;
@@ -647,10 +647,10 @@ section{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid yellow;
+    border: 2px solid indianred;
     border-radius: 50%;
     font-size: 20px;
-    color: yellow;
+    color: indianred;
     text-decoration: none;
     margin: 30px 15px 30px 0;
     transition: .5s ease;
@@ -660,9 +660,9 @@ section{
 
 }
 .contact-icon i:hover{
-    background: yellow;
+    background: indianred;
     color: black;
-    box-shadow: 0px 0px 20px yellow;
+    box-shadow: 0px 0px 20px indianred;
 }
 
 .contact-form form{
@@ -691,7 +691,7 @@ section{
 .contact-form form .send{
     display: inline-block;
     padding: 12px 60px;
-    background-color: yellow;
+    background-color: indianred;
     border-radius: 40px;
     font-size: 18px;
     color: #081b29;
@@ -701,11 +701,11 @@ section{
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 15px yellow;
+    box-shadow: 0 0 15px indianred;
 }
 .contact-form form .send:hover{
-    box-shadow: 0 0 15px yellow,
-    0 0 25px yellow;
+    box-shadow: 0 0 15px indianred,
+    0 0 25px indianred;
 }
 
 .last-text{
@@ -863,7 +863,8 @@ section{
     display: flex;
     height: 32px;
     width: 32px;
-   background-color:  rgba(249, 234, 101);
+   background-color: indianred;
+   padding: 3px;
    border-radius: 3px;
    position: relative;
    right: -2rem;
@@ -876,7 +877,7 @@ section{
     padding: 130px 0px;
     border-radius: 10px;
     min-height: 100%;
-    background-color:yellow;
+    background-color:indianred;
     gap: 40px;
     flex-direction: column;
     align-items: flex-start;
