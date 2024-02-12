@@ -280,7 +280,7 @@ section{
 
 .container1{
     width: 600px;
-    height: 500px;
+    height: 700px;
     padding: 75px 90px;
     margin-left: 120px;
 
@@ -364,11 +364,17 @@ section{
 .progress-line .JAVA::after{
     content:" 85%";
 }
-.progress-line .REACT{
+.progress-line .ANGULAR{
     width: 70%;
 }
-.progress-line .REACT::after{
+.progress-line .ANGULAR::after{
     content: "70%";
+}
+.progress-line .GIT{
+    width: 75%;
+}
+.progress-line .GIT::after{
+    content: "75%";
 }
 
 .progress-line span::before{
@@ -416,7 +422,7 @@ section{
 .radial-bars .radial-bar{
     width: 50%;
     height: 170px;
-    margin-bottom: 10px;
+    margin: 65px 0px;
     position: relative;
 }
 
@@ -497,7 +503,7 @@ section{
     width: 100%;
     position: absolute;
     text-align: center;
-    left: 50%;
+    left: 30%;
     bottom: -5px;
     transform: translateX(-50px);
     font-size: 17px;
@@ -810,14 +816,19 @@ section{
     .btn-box{
         font-size: 10px;
     }
+    .container{
+        padding: 50px;
+    }
     .container1{
         margin-left: 30px;
+        padding: 70px 50px;
     }
     .radial-bars .radial-bar svg{
         width: 80px;
     }
     .radial-bars .text{
         font-size: 13px;
+        
     }
     .radial-bars .percentage{
         font-size: 13px;
