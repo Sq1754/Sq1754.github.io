@@ -8,7 +8,7 @@
 This is a portfolio website template for showcasing your skills, projects, and contact information.
 
 ## Projects output links
-```
+
 <h2>Tic Tac Toe :- </h2>
 https://sq1754.me/TicTacToe/
 
@@ -21,7 +21,6 @@ https://sq1754.me/CheffieFood
 <h2>Music-Player</h2>
 https://sq1754.me/SpotifyClone
 
-```
 
 ## Description
 
