@@ -1,0 +1,60 @@
+
+
+/* Utilities */
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 8px;
+}
+.p-10{
+    padding: 10px;
+}
+.m-13{
+    margin: 13px 0px;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
+.mtb-8{
+    margin: 8px 0;
+}
+
+
+/* For Firefox */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #333333;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #666666;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #999999;
+  }
+  
