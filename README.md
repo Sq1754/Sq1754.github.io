@@ -10,17 +10,21 @@ This is a portfolio website template for showcasing your skills, projects, and c
 ## Projects output links
 
 <h2>Tic Tac Toe :- </h2>
-https://sq1754.tech/TicTacToe/
+http://sq1754.tech/TicTacToe/
 
 <h2>Snake Game :-</h2>
-https://sq1754.tech/SnakeGame/
+http://sq1754.tech/SnakeGame/
 
 <h2>Food Restaurant Website:-</h2>
-https://sq1754.tech/CheffieFood
+http://sq1754.tech/CheffieFood
 
 <h2>Music-Player</h2>
-https://sq1754.tech/SpotifyClone
+http://sq1754.tech/SpotifyClone
 
+<h2>Amazon Clone</h2>
+http://sq1754.tech/Amazon-Clone
+
+and more
 
 ## Description
 
